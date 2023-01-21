@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		896EBA29293F689A005C80CB /* CustomNibCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896EBA27293F689A005C80CB /* CustomNibCell.swift */; };
+		896EBA2A293F689A005C80CB /* CustomNibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 896EBA28293F689A005C80CB /* CustomNibCell.xib */; };
 		899ED35C293ED88B009728FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899ED35B293ED88B009728FF /* AppDelegate.swift */; };
 		899ED35E293ED88B009728FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899ED35D293ED88B009728FF /* SceneDelegate.swift */; };
 		899ED360293ED88B009728FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899ED35F293ED88B009728FF /* ViewController.swift */; };
 		899ED363293ED88B009728FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899ED361293ED88B009728FF /* Main.storyboard */; };
 		899ED365293ED88B009728FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899ED364293ED88B009728FF /* Assets.xcassets */; };
 		899ED368293ED88B009728FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899ED366293ED88B009728FF /* LaunchScreen.storyboard */; };
+		899ED370293EE3B2009728FF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899ED36F293EE3B2009728FF /* CustomTableViewCell.swift */; };
+		899ED372293F2ECC009728FF /* CustomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899ED371293F2ECC009728FF /* CustomTVC.swift */; };
+		899ED374293F3000009728FF /* CustomTVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899ED373293F3000009728FF /* CustomTVC3.swift */; };
+		899ED376293F3DB2009728FF /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899ED375293F3DB2009728FF /* SecondVC.swift */; };
+		899ED386293F4AA2009728FF /* SecondVCcustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899ED385293F4AA2009728FF /* SecondVCcustom.swift */; };
+		899ED388293F5C77009728FF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899ED387293F5C77009728FF /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		896EBA27293F689A005C80CB /* CustomNibCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNibCell.swift; sourceTree = "<group>"; };
+		896EBA28293F689A005C80CB /* CustomNibCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomNibCell.xib; sourceTree = "<group>"; };
 		899ED358293ED88B009728FF /* faiaz_rahman_30024_tableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = faiaz_rahman_30024_tableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		899ED35B293ED88B009728FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		899ED35D293ED88B009728FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		899ED364293ED88B009728FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		899ED367293ED88B009728FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		899ED369293ED88B009728FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899ED36F293EE3B2009728FF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		899ED371293F2ECC009728FF /* CustomTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTVC.swift; sourceTree = "<group>"; };
+		899ED373293F3000009728FF /* CustomTVC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTVC3.swift; sourceTree = "<group>"; };
+		899ED375293F3DB2009728FF /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		899ED385293F4AA2009728FF /* SecondVCcustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVCcustom.swift; sourceTree = "<group>"; };
+		899ED387293F5C77009728FF /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +75,18 @@
 				899ED35B293ED88B009728FF /* AppDelegate.swift */,
 				899ED35D293ED88B009728FF /* SceneDelegate.swift */,
 				899ED35F293ED88B009728FF /* ViewController.swift */,
+				899ED36F293EE3B2009728FF /* CustomTableViewCell.swift */,
+				899ED371293F2ECC009728FF /* CustomTVC.swift */,
+				899ED373293F3000009728FF /* CustomTVC3.swift */,
 				899ED361293ED88B009728FF /* Main.storyboard */,
 				899ED364293ED88B009728FF /* Assets.xcassets */,
 				899ED366293ED88B009728FF /* LaunchScreen.storyboard */,
 				899ED369293ED88B009728FF /* Info.plist */,
+				899ED375293F3DB2009728FF /* SecondVC.swift */,
+				899ED385293F4AA2009728FF /* SecondVCcustom.swift */,
+				899ED387293F5C77009728FF /* Data.swift */,
+				896EBA27293F689A005C80CB /* CustomNibCell.swift */,
+				896EBA28293F689A005C80CB /* CustomNibCell.xib */,
 			);
 			path = faiaz_rahman_30024_tableView;
 			sourceTree = "<group>";
@@ -127,6 +151,7 @@
 			files = (
 				899ED368293ED88B009728FF /* LaunchScreen.storyboard in Resources */,
 				899ED365293ED88B009728FF /* Assets.xcassets in Resources */,
+				896EBA2A293F689A005C80CB /* CustomNibCell.xib in Resources */,
 				899ED363293ED88B009728FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +165,14 @@
 			files = (
 				899ED360293ED88B009728FF /* ViewController.swift in Sources */,
 				899ED35C293ED88B009728FF /* AppDelegate.swift in Sources */,
+				899ED376293F3DB2009728FF /* SecondVC.swift in Sources */,
+				899ED374293F3000009728FF /* CustomTVC3.swift in Sources */,
+				899ED370293EE3B2009728FF /* CustomTableViewCell.swift in Sources */,
 				899ED35E293ED88B009728FF /* SceneDelegate.swift in Sources */,
+				899ED372293F2ECC009728FF /* CustomTVC.swift in Sources */,
+				899ED388293F5C77009728FF /* Data.swift in Sources */,
+				896EBA29293F689A005C80CB /* CustomNibCell.swift in Sources */,
+				899ED386293F4AA2009728FF /* SecondVCcustom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
